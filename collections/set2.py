@@ -1,0 +1,10 @@
+a = set([1,16,25,10,3])
+b = set([20,-5,8,16,3])
+
+print(f"A = {a}")
+print(f"B = {b}")
+print(f"A union B = {a.union(b)}")
+print(f"A intersection B = {a.intersection(b)}")
+print(f"A difference B = {a.difference(b)}")
+print(f"B difference A = {b.difference(a)}")
+print(f"A symmetric_difference B = {a.symmetric_difference(b)}")
