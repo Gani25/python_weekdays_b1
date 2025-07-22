@@ -1,5 +1,5 @@
 from datetime import datetime
-class cricket_player:
+class football_player:
     # FIELDS
     
     # Method -> Constructor Parameterized
@@ -8,20 +8,20 @@ class cricket_player:
         self.last_name = last_name
         self.birth_year = birth_year
         self.team = team
-        self.scores = []
+        self.goals = []
 
     # OVERRIDE
     def __str__(self):
-        return f"-----------------------------------------------\n~~~Cricket Player Info~~~\n-----------------------------------------------\nName = {self.first_name} {self.last_name}\nTeam = {self.team}\nBirth Year = {self.birth_year}\nAge = {self.player_age()}\nScores = {self.scores}\nAverage Scores = {self.calculate_average()}"
+        return f"-----------------------------------------------\n~~~Football Player Info~~~\n-----------------------------------------------\nName = {self.first_name} {self.last_name}\nTeam = {self.team}\nBirth Year = {self.birth_year}\nAge = {self.player_age()}\nGoals = {self.goals}\nAverage Goals = {self.calculate_average()}"
 
     def player_age(self):
         return datetime.now().year - self.birth_year
     
-    def add_scores(self,*runs):
-        self.scores.extend(runs)
+    def add_goals(self,*goals):
+        self.goals.extend(goals)
     
     def calculate_average(self):
-        return sum(self.scores) / len(self.scores)
+        return sum(self.goals) / len(self.goals)
 
     
 
