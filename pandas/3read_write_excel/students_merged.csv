@@ -1,0 +1,7 @@
+student_id,sname,gender,phone,english,maths,science,hindi,marathi,total,percentage
+1,Shlok Shinde,Male,1212.0,50.0,60.0,80.0,95,35,500,64.0
+2,Abdul Memon,,1414.0,,85.0,60.0,35,45,500,
+3,Pranjal Sharma,Female,,,20.0,39.0,35,45,500,
+4,Rohit Deshmukh,,4110.0,90.0,90.0,98.0,96,99,500,94.6
+5,Ojaz Sharma,Male,,65.0,35.0,,25,36,500,
+6,Nikhil Gupta,Male,,65.0,,80.0,90,95,500,
